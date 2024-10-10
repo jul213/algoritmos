@@ -18,5 +18,7 @@ foreach edge (v, u) in edges:
   newD = distance[v] + weight(v,u)
   if newD < distance[u]:
     print("graph es un ciclo negativo")
+
+return distance[], predecessor[]
         
   
