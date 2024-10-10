@@ -13,7 +13,7 @@ function bellmanFord(vertices, edges, source)
       if newD < distance[u]:
         distance[u] = newD
         predecessor[u] = v
-
+// mirar ciclos negativos
 foreach edge (v, u) in edges:
   newD = distance[v] + weight(v,u)
   if newD < distance[u]:
