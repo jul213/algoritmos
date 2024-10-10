@@ -1,0 +1,17 @@
+function bellmanFord(vertices, edges, source)
+  distance[], predecessor[]
+  for each vertex v in vertices
+    distance[v] = inf
+    predecessor[v] = null
+
+  distance[source] = 0
+
+  for i from l to size(vertices)-1:
+    foreach edge(v, u) in edges:
+      W = weight((v,u))
+      newD = distance[v] + w
+      if newD < distance[u]:
+        distance[u] = newD
+        predecessor[u] = v
+        
+  
