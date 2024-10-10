@@ -13,5 +13,10 @@ function bellmanFord(vertices, edges, source)
       if newD < distance[u]:
         distance[u] = newD
         predecessor[u] = v
+
+foreach edge (v, u) in edges:
+  newD = distance[v] + weight(v,u)
+  if newD < distance[u]:
+    print("graph es un ciclo negativo")
         
   
