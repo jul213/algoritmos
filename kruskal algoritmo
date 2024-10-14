@@ -1,2 +1,5 @@
 kruskal(sortedEdges[])
   vertices[]
+
+foreach edge (u,v) in sortedEdges
+
