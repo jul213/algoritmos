@@ -3,5 +3,10 @@ kruskal(sortedEdges[])
 
 foreach edge (u,v) in sortedEdges
   if !sameConnectedComponent(u,v)
+  vertices[u,v] = weigh(u,v)
+
+
+
+return vertices
   
 
