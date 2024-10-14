@@ -10,3 +10,4 @@ foreach edge (u,v) in sortedEdges
 return vertices
   
 
+// algoritmo en pseudocodigo
