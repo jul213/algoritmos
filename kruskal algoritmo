@@ -2,4 +2,6 @@ kruskal(sortedEdges[])
   vertices[]
 
 foreach edge (u,v) in sortedEdges
+  if !sameConnectedComponent(u,v)
+  
 
