@@ -9,3 +9,6 @@ while toVisit.length > 0
     if inTree.has(i) and
     !inTree.has(j) and
     isMinimumAvailable(edge(i, j))
+      inTree = inTree + j
+      toVisit = toVisit - j
+      spanningTree = spanningTree + 
