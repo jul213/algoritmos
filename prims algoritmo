@@ -11,4 +11,4 @@ while toVisit.length > 0
     isMinimumAvailable(edge(i, j))
       inTree = inTree + j
       toVisit = toVisit - j
-      spanningTree = spanningTree + 
+      spanningTree = spanningTree + edge(i, j)
