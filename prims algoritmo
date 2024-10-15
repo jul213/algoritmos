@@ -1,0 +1,8 @@
+prim(Adj matriz)
+
+inTree[]
+toVisit = [1, ... , n-1]
+spanningTree[]
+
+while toVisit.length > 0
+  foreach (i, j)
