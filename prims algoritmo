@@ -12,3 +12,5 @@ while toVisit.length > 0
       inTree = inTree + j
       toVisit = toVisit - j
       spanningTree = spanningTree + edge(i, j)
+
+la diferencia entre este y el khurskal algoritmo es que empieza a construir el minimo de expansion en el arbol empezando por el mas pequeño primero
