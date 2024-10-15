@@ -5,4 +5,7 @@ toVisit = [1, ... , n-1]
 spanningTree[]
 
 while toVisit.length > 0
-  foreach (i, j)
+  foreach (i, j) in AdjMatriz
+    if inTree.has(i) and
+    !inTree.has(j) and
+    isMinimumAvailable(edge(i, j))
