@@ -14,3 +14,5 @@ while toVisit.length > 0
       spanningTree = spanningTree + edge(i, j)
 
 la diferencia entre este y el khurskal algoritmo es que empieza a construir el minimo de expansion en el arbol empezando por el mas pequeño primero
+
+tiene una complejidad algoritmica lineal rapida entre mas crezca el numero de ejes tendra un menos chance a que se muera aunque el khurskal sigue siendo preferido por que es mas rapido que este
